@@ -1,0 +1,42 @@
+Index: requirements.txt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/requirements.txt b/requirements.txt
+new file mode 100644
+--- /dev/null	(date 1624281055385)
++++ b/requirements.txt	(date 1624281055385)
+@@ -0,0 +1,4 @@
++asgiref==3.3.4
++Django==3.2.4
++pytz==2021.1
++sqlparse==0.4.1
+Index: .idea/inspectionProfiles/Project_Default.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/inspectionProfiles/Project_Default.xml b/.idea/inspectionProfiles/Project_Default.xml
+new file mode 100644
+--- /dev/null	(date 1624739571995)
++++ b/.idea/inspectionProfiles/Project_Default.xml	(date 1624739571995)
+@@ -0,0 +1,17 @@
++<component name="InspectionProjectProfileManager">
++  <profile version="1.0">
++    <option name="myName" value="Project Default" />
++    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
++      <option name="ignoredPackages">
++        <value>
++          <list size="4">
++            <item index="0" class="java.lang.String" itemvalue="Django" />
++            <item index="1" class="java.lang.String" itemvalue="asgiref" />
++            <item index="2" class="java.lang.String" itemvalue="pytz" />
++            <item index="3" class="java.lang.String" itemvalue="sqlparse" />
++          </list>
++        </value>
++      </option>
++    </inspection_tool>
++  </profile>
++</component>
+\ No newline at end of file
