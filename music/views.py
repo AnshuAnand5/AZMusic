@@ -146,7 +146,7 @@ def favorite_album(request, album_id):
             'songs': song_results,
             'user': request.user
         })
-        #return JsonResponse({'success': True})
+
 
 
 def index(request):
