@@ -25,7 +25,7 @@ SECRET_KEY = 'rfj(kc29md1anbcx+zever+5+05yz79bf7%j20k3@c6eb8t#4f'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
